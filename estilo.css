@@ -1,0 +1,100 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+article{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+input{
+    width: 100%;
+    background-color: #4E5BEE;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35px;
+}
+input:focus{
+    outline-style: none;
+}
+
+i{
+    position: absolute;
+    float: left;
+    padding: 8px;
+    margin: 7px 12px;
+}
+
+.btnLogar{
+    background-color: white;
+    width: 50%;
+    margin-top: 10px;
+    color:lightslategrey;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.sectionA{
+    width: 40%;
+    background-color: #4E5BEE;
+    padding: 99px 20px;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionA img{
+    width: 200px;
+}
+
+.sectionA div{
+    margin:0;
+    width: 80%;
+}
+
+.sectionB{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+}
+
+.sectionB img{
+    width: 100%;
+    
+}
+
+@media screen and (max-width:800px){
+
+    .sectionB{
+        display: none;
+    }
+
+    .sectionA{
+        width: 100%;
+    }
+
+}
